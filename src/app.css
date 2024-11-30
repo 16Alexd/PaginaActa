@@ -1,0 +1,41 @@
+/* Estilos globales para la aplicación */
+
+/* Reset básico para márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos del body */
+  body {
+    font-family: 'Arial', sans-serif; /* Tipografía general */
+    background-color: #eaeaea; /* Color de fondo */
+    color: #333; /* Color del texto */
+    
+  }
+  
+  /* Contenedor principal de la aplicación */
+  .app-container {
+    min-height: 100vh; /* Altura mínima */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilos para encabezados */
+  h1, h2, h3 {
+    margin: 20px 0;
+  }
+  
+  /* Estilo de enlaces */
+  a {
+    text-decoration: none;
+    color: #007bff; /* Color de los enlaces */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+  }
+  
